@@ -6,7 +6,7 @@ networks:
 
 services:
   streamlit-app:
-    container_name: appprueba3
+    container_name: appprueba4
     build:
       context: .
       dockerfile: Dockerfile
@@ -19,7 +19,7 @@ services:
     labels:
       # Traefik
       traefik.enable: 'true'
-      traefik.frontend.rule: "Host:appprueba3.seoclick.co"
+      traefik.frontend.rule: "Host:appprueba4.seoclick.co"
       traefik.port: '8501'
       traefik.docker.network: 'web'
       traefik.frontend.headers.SSLRedirect: 'true'
