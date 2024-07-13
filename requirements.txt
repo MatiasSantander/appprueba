@@ -1,1 +1,17 @@
+docx
+langchain
+langchain_community
+langchain_core
+langchain_openai
+langchain_pinecone
+openai
+openai_whisper
+pandas
+pinecone
+protobuf
+python-dotenv
+python_docx
+pytubefix
 streamlit
+google-cloud-storage
+

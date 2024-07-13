@@ -16,4 +16,4 @@ EXPOSE 8501
 
 # Configurar el comando de inicio de la aplicación
 ENTRYPOINT ["streamlit", "run"]
-CMD ["app.py"]
+CMD ["inicio.py"]
